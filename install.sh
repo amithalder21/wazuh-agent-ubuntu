@@ -14,3 +14,5 @@ mv remove-threat.sh /var/ossec/active-response/bin/remove-threat.sh
 chmod 750 /var/ossec/active-response/bin/remove-threat.sh
 chown root:ossec /var/ossec/active-response/bin/remove-threat.sh
 apt install jq -y
+
+sudo systemctl restart wazuh-agent
